@@ -12,7 +12,6 @@ exports.correct_user_pass_responds_token = function(done){
   .expect(200)
   .end(function(err, res){
     if(err) throw(err)
-    console.log(res.body)
     done();
   })
 }

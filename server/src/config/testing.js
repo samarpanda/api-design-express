@@ -1,5 +1,5 @@
 module.exports = {
-  logging: true,
+  logging: false,
   seed: false,
   db: {
     url: 'mongodb://localhost/api-design-express'
