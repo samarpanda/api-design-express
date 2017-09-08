@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
-    "test": ""
+    "test": "NODE_ENV=testing mocha -u exports server/test/integration/test-route-auth.js"
   },
   "dependencies": {
     "bcrypt": "^1.0.3",
@@ -21,7 +21,9 @@
     "morgan": "^1.8.2"
   },
   "devDependencies": {
-    "chai": "^4.1.2"
+    "chai": "^4.1.2",
+    "mocha": "^3.5.0",
+    "supertest": "^3.0.0"
   },
   "author": "Samar Panda <er.samarpanda@gmail.com> (https://samarpanda.com/)",
   "license": "MIT"
