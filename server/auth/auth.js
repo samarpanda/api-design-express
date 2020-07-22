@@ -2,7 +2,7 @@ var jwt = require('jsonwebtoken')
 var expressJwt = require('express-jwt')
 var config = require('../config/config')
 
-var checkToken = expressJwt({secret: config.secrets.jwt})
+var checkToken = expressJwt({secret: config.secrets.jwt, algorithms: ['RS256']})
 var User = require('../api/user/userModel')
 
 exports.decodeToken = function(){
