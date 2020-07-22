@@ -8,7 +8,7 @@
     "test": ""
   },
   "dependencies": {
-    "bcrypt": "^1.0.3",
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.17.2",
     "colors": "^1.1.2",
     "cors": "^2.8.4",
@@ -21,7 +21,8 @@
     "morgan": "^1.9.1"
   },
   "devDependencies": {
-    "chai": "^4.1.2"
+    "chai": "^4.1.2",
+    "nodemon": "^2.0.4"
   },
   "author": "Samar Panda <er.samarpanda@gmail.com> (https://samarpanda.com/)",
   "license": "MIT"
