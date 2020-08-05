@@ -1,7 +1,7 @@
 # API Design 
 > [express](https://expressjs.com/) & [mongodb](https://www.mongodb.com/) as datastore
 
-## Start the application 
+## Steps to run the application 
 
 1. Start mongodb
 1. Run `yarn start` This starts the API
