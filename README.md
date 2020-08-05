@@ -1,5 +1,5 @@
 # API Design 
-> [express](https://expressjs.com/) & [mongodb](https://www.mongodb.com/) as datastore
+> Using [express](https://expressjs.com/) and [mongodb](https://www.mongodb.com/)
 
 ## Steps to run the application 
 
